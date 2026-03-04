@@ -27,9 +27,9 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mb-8"
         >
-          <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-primary/20 shadow-xl">
+          <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-primary/20 shadow-xl bg-gradient-to-br from-primary/20 to-secondary/20">
             <Image
-              src="https://simple-gold-d8rpxroosv.edgeone.app/"
+              src="https://avatars.githubusercontent.com/u/234352008?v=4"
               alt="朱开颜"
               fill
               className="object-cover"
