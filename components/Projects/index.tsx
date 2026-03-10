@@ -15,6 +15,17 @@ interface Project {
 export default function Projects() {
   const projects: Project[] = [
     {
+      title: "Every Idea Counts 💡",
+      description: "基于 AI 的想法捕获与笔记生成 PWA 应用，每个想法都值得被认真对待",
+      github: "https://github.com/zhukaiyan06/every-idea-counts",
+      tags: ["React", "TypeScript", "Supabase", "GLM/Qwen AI", "PWA"],
+      highlights: [
+        "一键记录生成：保存 → AI 生成 → 自动跳转，极速体验",
+        "双模式捕获：快速记录（1次API调用）与深入孵化（3问题+1次调用）",
+        "离线优先PWA：本地存储 + 后台同步，匿名自动登录",
+      ],
+    },
+    {
       title: "The Alchemist of X 🔮",
       description: "将AI对话转化为魔法体验的沉浸式Web应用，Dark Academia美学 + Elon Musk AI化身",
       github: "https://github.com/zhukaiyan06/the-alchemist-of-x",
